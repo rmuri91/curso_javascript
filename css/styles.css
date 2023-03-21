@@ -1,0 +1,16 @@
+.underline {
+    text-decoration: underline;
+}
+
+.success {
+    background-color: greenyellow;
+}
+
+.fail {
+    background-color: red;
+}
+
+.smallimg {
+    width: 320px;
+    height: auto;
+}
