@@ -40,3 +40,44 @@ $("#changeImgBtn").on("click",function() {
 })
 
 $(() => $("#draggable").draggable())
+
+
+/* a partir de aqui es para restaurante */
+
+$( "#nav" ).menu({position: {at: "left bottom"}});
+
+/* $(() => $("#datepicker").datepicker()) */
+
+$( function() {
+    $( "#datepicker" ).datepicker();
+    $( "#anim" ).on( "change", function() {
+      $( "#datepicker" ).datepicker( "option", "showAnim", $( this ).val() );
+    });
+  } );
+
+$( function() {
+    $( document ).tooltip();
+} );
+
+$( function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 1000
+      }
+    });
+ 
+    $( "#opener" ).on( "click", function() {
+      $( "#dialog" ).dialog( "open" );
+    });
+  } );
+
+  $( function() {
+    $( "#ciudades" ).selectmenu();
+  } );
+

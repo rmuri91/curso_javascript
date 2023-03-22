@@ -15,3 +15,99 @@
     height: auto;
     
 }
+
+/* a partir de aqui es para web restaurante */
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+/* .split {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+} */
+.left {
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    left: 0;
+    background-image: url("C:/Users/AEAT/Documents/jquery-examples/img/portada_restaurante.jpg");
+    background-repeat: no-repeat;
+    width: 600px;height: 780px;
+    
+    
+}   
+.right {
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    right: 0;
+    
+}
+#titulo {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin:4%;
+    color:crimson;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.ui-menu { list-style:none; padding: 2px; margin: 0; display:block; outline: none; }
+.ui-menu .ui-menu { margin-top: -3px; position: absolute; }
+.ui-menu .ui-menu-item {
+    display: inline-block;
+    float: right;
+    margin: 0;
+    padding: 10px;
+    width: auto;
+}
+.ui-menu .ui-menu-divider { margin: 5px -2px 5px -2px; height: 0; font-size: 0; line-height: 0; border-width: 1px 0 0 0; }
+.ui-menu .ui-menu-item a { text-decoration: none; display: block; padding: 2px .4em; line-height: 1.5; zoom: 1; font-weight: normal; }
+.ui-menu .ui-menu-item a.ui-state-focus,
+.ui-menu .ui-menu-item a.ui-state-active { font-weight: normal; margin: -1px; }
+
+.ui-menu .ui-state-disabled { font-weight: normal; margin: .4em 0 .2em; line-height: 1.5; }
+.ui-menu .ui-state-disabled a { cursor: default; }
+.ui-menu:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+#mensaje{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin:4%;
+    color:crimson;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    text-shadow: 2px 0 #f0d74b, -2px 0 #f0d74b, 0 2px #f0d74b, 0 -2px #f0d74b,
+               1px 1px #f0d74b, -1px -1px #f0d74b, 1px -1px #f0d74b, -1px 1px #f0d74b;
+}
+
+#seleccion{
+    margin:10%;
+}
+
+fieldset {
+    border: 0;
+    float:left;
+  }
+  label {
+    display: block;
+    margin: 0;
+    
+  }
+  .overflow {
+    height: 200px;
+  }
+

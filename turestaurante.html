@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" integrity="sha512-ELV+xyi8IhEApPS/pSj66+Jiw+sOT1Mqkzlh8ExXihe4zfqbWkxPRi8wptXIO9g73FSlhmquFlUOuMSoXz5IRw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tu Restaurante</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="left">
+          <p id="titulo">Tu Restaurante</p>
+        </div>
+    <div class="right">
+        <div>
+        <ul id="nav">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">FAQ</a>
+            <li><a href="#"><button id="opener">Compañia</button></a></li>
+            <li>
+                    <fieldset>
+                      <label for="ciudades">Ciudades</label>
+                      <select name="ciudades" id="ciudades">
+                        <option>Madrid</option>
+                        <option>Barcelona</option>
+                        <option selected="selected">Valencia</option>
+                        <option>Zaragoza</option>
+                        <option>Sevilla</option>
+                      </select>
+                      </fieldset>
+            </li>
+        </ul>
+        </div>
+        <div id="mensaje">
+            <p>Tus Restaurantes mas cerca de ti</p>
+        </div>
+        <div id="seleccion">
+            <p>Selecciona fecha para su reserva:
+            <input type="text" id="datepicker" size="30" title="Escoge la fecha que necesites reservar"></p>
+        </div>
+        <div id="dialog" title="Quiénes somos">
+            <p>Somos una empresa que nos dedicamos a ofrecerte los mejores restaurantes cerca de tí.</p>
+        </div>
+    </div>
+    
+
+
+<script
+    src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+    crossorigin="anonymous">
+</script>
+<script src="js/jquery-ui-1.13.2/jquery-ui.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
