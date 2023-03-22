@@ -38,3 +38,5 @@ $("#changeImgBtn").on("click",function() {
     }  
     kitty = !kitty
 })
+
+$(() => $("#draggable").draggable())
